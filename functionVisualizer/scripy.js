@@ -23,7 +23,7 @@ stroke(255,0,0);
   var prevy;
   for(x = -width ; x < width; x++){
     let y = eval(formula);
-    line(x + (width/2), -y + (-height/2),  prevx+(width/2),-prevy+ (-height/2));
+    line(x + (width/2), -y + (height/2),  prevx+(width/2), -prevy + (height/2));
     prevx = x;
     prevy = y;
   }
